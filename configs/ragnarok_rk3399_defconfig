@@ -9,7 +9,7 @@ CONFIG_DEBUG_UART_BASE=0xFF1A0000
 CONFIG_DEBUG_UART_CLOCK=24000000
 CONFIG_DEFAULT_DEVICE_TREE="rk3399-rg552"
 CONFIG_DEBUG_UART=y
-CONFIG_BOOTCOMMAND="setenv bootargs console=ttyS2,115200 root=/dev/mmcblk0p1 rootfstype=ext4 rootwait rw; load mmc 1:1 0x02000000 /boot/Image; load mmc 0:1 0x01f00000 /boot/rk3399-rg552.dtb; booti 0x02000000 - 0x01f00000"
+CONFIG_BOOTCOMMAND="setenv bootargs console=ttyS2,1500000 root=/dev/mmcblk0p1 rootfstype=ext4 rootwait rw; load mmc 1:1 0x02000000 /boot/Image; load mmc 1:1 0x01f00000 /boot/rk3399-rg552.dtb; booti 0x02000000 - 0x01f00000"
 CONFIG_DEFAULT_FDT_FILE="rockchip/rk3399-rg552.dtb"
 CONFIG_LOGLEVEL=5
 CONFIG_DISPLAY_BOARDINFO_LATE=y
