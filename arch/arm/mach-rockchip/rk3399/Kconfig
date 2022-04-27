@@ -46,6 +46,11 @@ config TARGET_PUMA_RK3399
 	   * HDMI, eDP, MIPI-DSI, MIPI-DSI/CSI and MIPI-CSI
 	   * SPI, I2C, I2S, UART, GPIO, ...
 
+config TARGET_RG552
+	bool "Anbernic RG552"
+	help
+	  gaming console hehe
+
 config TARGET_ROCK960_RK3399
 	bool "Vamrs Limited Rock960 board family"
 	help
@@ -151,6 +156,7 @@ config SYS_BOOTCOUNT_ADDR
 
 endif # BOOTCOUNT_LIMIT
 
+source "board/anbernic/rg552/Kconfig"
 source "board/firefly/roc-pc-rk3399/Kconfig"
 source "board/google/gru/Kconfig"
 source "board/pine64/pinebook-pro-rk3399/Kconfig"

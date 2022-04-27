@@ -1,0 +1,7 @@
+RG552
+M:	Mayonnaise <maccraft123mc@gmail.com>
+S:	Maintained
+F:	board/anbernic/rg552
+F:	include/configs/rg552.h
+F:	arch/arm/dts/rk3399-rg552.dts
+F:	arch/arm/dts/rk3399-rg552-u-boot.dtsi
