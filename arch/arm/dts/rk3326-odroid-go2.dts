@@ -15,7 +15,7 @@
 	compatible = "hardkernel,rk3326-odroid-go2", "rockchip,rk3326";
 
 	chosen {
-		stdout-path = "serial2:115200n8";
+		stdout-path = "serial2:1500000n8";
 	};
 
 	backlight: backlight {
